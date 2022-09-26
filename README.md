@@ -1,15 +1,15 @@
-### Client-Server App
+# Client-Server App
 ## How to Install and Run the Project
 Open console (Bash, CMD, PowerShell etc.) in project's directory and type:
 ```console
 $ cmake .
 $ cmake --build .
 ```
-After successful builing you should open terminal windows in 'server' directory and type following (<port> - is desired server's listening socket port number):
+After successful builing you should open terminal windows in 'server' directory and type following (\<port\> - is desired server's listening socket port number):
 ```console
 ./server <port>
 ```
-And now you can run the client by opening another one terminal in 'client' directory and typing following (<addr> - is host's IPv4 address you are connecting to, <port> - its port number):
+And now you can run the client by opening another one terminal in 'client' directory and typing following (\<addr\> - is host's IPv4 address you are connecting to, \<port\> - its port number):
 ```console
 ./client <addr> <port>
 ```
